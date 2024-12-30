@@ -1,0 +1,69 @@
+# macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.VolumeIcon.icns
+
+# 通用规则
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.dll
+
+# Xcode 项目
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+DerivedData/
+*.xcworkspace
+!default.xcworkspace
+*.xcuserstate
+
+# Python 项目
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Node.js 项目
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Java 项目
+*.class
+*.jar
+*.war
+*.ear
+target/
+bin/
+
+# 编辑器相关文件
+.vscode/
+*.code-workspace
+.idea/
+*.iml
